@@ -1,3 +1,9 @@
+#---------------
+# CCM+ commands:
+#   git describe  -->  get most recently tagged commit
+#   git co -b feature/dpj/ADJ-XXX/[[description]] [[commit-tag]]  -->  create branch from specific commit
+#---------------
+
 # set user name and email address
 [user]
         name = Dominic Jones
