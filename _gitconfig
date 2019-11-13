@@ -1,8 +1,12 @@
-#---------------
-# CCM+ commands:
+#------
+# CCM+ feature branch:
+#   git co master
 #   git describe  -->  get most recently tagged commit
 #   git co -b feature/dpj/ADJ-XXX/[[description]] [[commit-tag]]  -->  create branch from specific commit
-#---------------
+#   git add [[new/modified files]]
+#   git commit -m "ADJ-XXX [[message]]"
+#   git push -u origin feature/dpj/ADJ-XXX/[[description]]
+#------
 
 # set user name and email address
 [user]
