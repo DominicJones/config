@@ -1,0 +1,6 @@
+# build ccm+
+star> make-cpp-r8
+coupledflow> ../../../cmake_star
+
+# run ccm+
+star> ./bin/starccm+ -dp
