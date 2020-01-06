@@ -25,6 +25,7 @@
 # using perl like sed:
 #
 # perl -pe 's/<(\w(?:\w|<|>|,| )*) +(const),/<$2 $1,/'
+# find ./ -type f -name \*.cpp -print | xargs perl -i -pe 's/ABC/XYZ/g'
 #
 #
 #===============================================================================
